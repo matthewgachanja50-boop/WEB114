@@ -102,5 +102,29 @@ if (score === 3 ){
   console.log("3 correct answers")
 }
 const percent = (score / 5) * 100 
-alert(`${score} out of 5 or ${percent}% `)
+if (percent === 100)
+{
+alert(`perfect score`)
+alert(`${score} out of 5 or ${percent}% `) 
+  
+}
+if (percent === 75)
+{
+alert(`almost perfect`)
+alert(`${score} out of 5 or ${percent}% `) 
+  
+}
+if (percent === 50)
+{
+alert(`halfway there`)
+alert(`${score} out of 5 or ${percent}% `) 
+  
+}
+if (percent === 0)
+{
+alert(`zero correct answers`)
+alert(`${score} out of 5 or ${percent}% `) 
+  
+}
+
 
